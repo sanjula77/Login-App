@@ -12,7 +12,7 @@
     <TextView
         android:text="@string/login"
         android:gravity="center"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:textStyle="bold"
         android:layout_marginBottom="50dp"
         android:layout_marginTop="150dp"
@@ -49,10 +49,44 @@
         android:id="@+id/btn_login"
         android:text="@string/loginBtn"
         android:layout_marginTop="25dp"
-        android:width="150dp"
+        android:height="53dp"
         android:layout_gravity="center"
-        android:layout_width="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:id="@+id/btnGoogleSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/google_button_background"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_marginEnd="5dp"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/google_icon_resized"
+            android:contentDescription="@string/google_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in_with_google"
+            android:textColor="@color/white"
+            android:paddingStart="8dp"
+            android:textSize="16sp"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/tvSignUp"
@@ -64,4 +98,6 @@
         android:gravity="center"
         android:text="@string/don_t_have_account_sign_up"
         android:textSize="16sp" />
+
+
 </LinearLayout>

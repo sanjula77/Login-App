@@ -9,4 +9,10 @@
     <string name="btnlogin">Login</string>
     <string name="don_t_have_account_sign_up">Don\'t_have_account_sign_Up</string>
     <string name="loginBtn">Login</string>
+    <string name="hello">Hello</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="google_icon">img\n</string>
+    <string name="i_am_logged_in">I am logged in</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="googleSignInClient">id</string>
 </resources>
